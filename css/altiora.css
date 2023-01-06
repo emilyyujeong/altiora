@@ -1,3 +1,7 @@
+* {
+    outline: 1px solid --tomato;
+}
+
 .inner {
     margin: 0 auto;
 }
@@ -41,34 +45,41 @@
 }
 
 
+
+
 .header {
     line-height: 50px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    transition: 0.3s;
+
     z-index: 999;
     color: #fff;
+    transition: 0.5s;
 }
 
 
 
 .header.on {
     background: rgba(27, 35, 47, 0.6);
-    height: 102px;
-    box-shadow: 0 1px 6px 2px rgb(0 0 0 / 10%);
-
+    height: 100px;
 }
 
 .header h1 {
-    margin: 15px 0;
+    margin: 10px 0;
+
 }
 
 
 .header.on h1 {
     width: 70px;
     margin: 15px 0;
+}
+
+.header.on .gnb>ul {
+    font-size: 15px;
+    margin: 25px auto;
 }
 
 .header .inner {
@@ -78,11 +89,13 @@
     margin: 0 auto;
 }
 
+
 .header nav>ul {
     display: flex;
     gap: 50px;
-    margin: 30px 0;
+    margin: 50px 0;
     font-size: 18px;
+
 }
 
 .header nav>ul .contact {
@@ -90,7 +103,7 @@
     text-align: center;
     color: #fff;
     padding: 0 20px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .header nav>ul .contact:hover {
@@ -98,7 +111,7 @@
 }
 
 .header nav>ul .menu_i:hover {
-    color: tomato;
+    color: #ff6347;
 }
 
 
@@ -165,8 +178,8 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #333;
-    margin: 2px;
+    background: #3333338c;
+    margin: 6px;
 }
 
 .mainVisual .main_slide .slick-dots>li.slick-active {
@@ -177,6 +190,9 @@
 .mainVisual .main_slide .slick-dots>li button {
     display: none;
 }
+
+
+
 
 /* mainItem */
 
@@ -239,9 +255,101 @@
     line-height: 30px;
 }
 
+.mainItem .items img {
+    width: 102px;
+    height: 102px;
+}
+
+.mainItem .items figure:hover {
+    color: #3dc6a9;
+}
+
 .mainItem .items .eng {
     font-size: 25px;
     font-weight: 700;
+    margin-top: 15px;
+}
+
+.mainItem .img_box_1 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.icon01-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mainItem a:hover .icon01-1 {
+    display: block;
+}
+
+
+.mainItem .img_box_2 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.icon02-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mainItem a:hover .icon02-1 {
+    display: block;
+}
+
+.mainItem .img_box_3 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.icon03-1 {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    display: none;
+}
+
+.mainItem a:hover .icon03-1 {
+
+    display: block;
+}
+
+.mainItem .img_box_4 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.icon04-1 {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    display: none;
+}
+
+.mainItem a:hover .icon04-1 {
+    display: block;
+}
+
+.mainItem .img_box_5 {
+    margin: 0 auto;
+    position: relative;
+}
+
+.icon05-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.mainItem a:hover .icon05-1 {
+    display: block;
 }
 
 
@@ -347,17 +455,20 @@
 .annual {
     margin: -40px 0 0 0;
     padding: 210px 0 200px 0;
-    background-image: url(../img/main_annual_left.png);
-    background-repeat: no-repeat;
-    background-position: left top;
+    background-image: url(../img/main_annual_left.png) no-repeat left top;
 }
 
 .annual .inner {
     width: 1200px;
+
     margin: 0 auto;
     color: #4f4f4f;
 }
 
+.annual .inner>div {
+    display: flex;
+    flex: 1;
+}
 
 .annual .inner span {
     padding: 100px 0;
@@ -382,11 +493,11 @@
     line-height: 20px;
 }
 
-.annual .inner a {
+.annual .inner .more {
     position: relative;
 }
 
-.annual .inner a::after {
+.annual .inner .more::after {
     content: "";
     position: absolute;
     bottom: 10px;
@@ -405,7 +516,7 @@
 }
 
 .annual .inner .desc {
-    margin: 280px 0 0 0;
+    margin: 420px 0 0 0;
     text-align: end;
 }
 
@@ -413,7 +524,7 @@
 /* Story / count for branches */
 
 .story {
-    background-color: #653dd1;
+    background: #653dd1;
     height: 880px;
 }
 
@@ -426,14 +537,13 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+
 }
-
-
 
 .story .tit {
     position: absolute;
     top: 20%;
-    left: 50%;
+    right: 18.4%;
 }
 
 
@@ -571,7 +681,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 
@@ -622,7 +732,7 @@
     background-color: rgba(0, 0, 0, 0.3);
     font-weight: 500;
     padding-left: 25px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .footer .top_box .info a:hover {
