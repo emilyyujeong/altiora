@@ -455,7 +455,9 @@
 .annual {
     margin: -40px 0 0 0;
     padding: 210px 0 200px 0;
-    background-image: url(../img/main_annual_left.png) no-repeat left top;
+    background-image: url(../img/main_annual_left.png);
+    background-repeat: no-repeat;
+    background-position: left top;
 }
 
 .annual .inner {
@@ -673,7 +675,7 @@
     height: 58px;
     line-height: 58px;
     padding: 0 20px 0 5px;
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffffd9;
     border-bottom: 1px solid #ffffff4d;
     background: url(../img/list_icon.png) no-repeat 99% 50%;
 
@@ -718,6 +720,7 @@
 
 .footer .top_box .right .info {
     display: flex;
+
     justify-content: space-between;
     padding: 30px 0;
 }
@@ -750,6 +753,7 @@
 
 .footer .bottom_box .top {
     display: flex;
+    gap: 200px;
 
 }
 
