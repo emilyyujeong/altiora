@@ -41,8 +41,8 @@ $(function () {
     $('.main_slide').slick({
         arrows: false,
         dots: true,
-        autoplaySpeed: 4000,
-
+        autoplay: true,
+        autoplaySpeed: 3000,
     });
 
 

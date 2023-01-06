@@ -402,7 +402,7 @@
 
 .mainBanner .banner_slide p {
     padding: 30px 0 0 0;
-    color: rgba(255, 255, 255, 0.671);
+    color: #ffffffab;
     font-size: 25px;
 
 }
@@ -421,7 +421,7 @@
     left: 60px;
     width: 101px;
     height: 1px;
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
 }
 
 
@@ -560,7 +560,7 @@
 
 .story .right p {
     padding: 30px 0 0 0;
-    color: rgba(255, 255, 255, 0.671);
+    color: #ffffffab;
     font-size: 25px;
     line-height: 40px;
 
@@ -601,7 +601,7 @@
 
 .campus strong {
     margin-top: 150px;
-    color: rgba(255, 255, 255, 0.671);
+    color: #ffffffab;
     font-size: 30px;
     font-weight: 500;
     line-height: 60px;
@@ -645,13 +645,13 @@
 .footer .list_tit {
     display: flex;
     justify-content: space-between;
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffffd9;
     font-size: 32px;
     line-height: 60px;
 }
 
 .footer .list_tit span {
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffffd9;
     font-size: 32px;
     font-weight: 500;
 }
@@ -674,7 +674,7 @@
     line-height: 58px;
     padding: 0 20px 0 5px;
     color: rgba(255, 255, 255, 0.85);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid #ffffff4d;
     background: url(../img/list_icon.png) no-repeat 99% 50%;
 
     overflow: hidden;
@@ -695,7 +695,7 @@
 
 .footer .top_box .right {
     line-height: 45px;
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffffd9;
     width: 480px;
 }
 
@@ -724,19 +724,19 @@
 
 .footer .top_box .right .info a {
     display: inline-block;
-    color: rgba(255, 255, 255, 0.85);
+    color: #ffffffd9;
     width: 230px;
     height: 50px;
     line-height: 49px;
     background: url(../img/list_icon.png) no-repeat 91% 50%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #0000004d;
     font-weight: 500;
     padding-left: 25px;
     transition: 0.5s;
 }
 
 .footer .top_box .info a:hover {
-    background-color: rgba(0, 0, 0, 0.836);
+    background-color: #000000d5;
 }
 
 
@@ -765,8 +765,7 @@
 }
 
 .footer_caption {
-
-    color: rgba(255, 255, 255, 0.8);
+    color: #ffffffcc;
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 25px;
@@ -774,7 +773,7 @@
 
 .footer .bottom_box .right a {
 
-    color: rgba(255, 255, 255, 0.4);
+    color: #ffffff66;
     line-height: 34px;
     display: block;
     transition: 0.2s;
@@ -787,12 +786,12 @@
 
 
 .footer .bottom_box .copyright {
-    color: rgba(255, 255, 255, 0.25);
+    color: #ffffff40;
     font-size: 12px;
     font-weight: 100;
     text-transform: uppercase;
     padding: 20px 0 50px 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid #ffffff26;
     margin-top: 40px;
 
 }
